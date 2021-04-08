@@ -168,7 +168,7 @@ body {
 }
 
 .content {
-	padding: 168px 0 137px 0;
+	padding: 118px 0 137px 0;
 	max-width: 841px;
 	margin: 0px auto;
 }
@@ -183,7 +183,7 @@ body {
 	font-size: 56px;
 	text-transform: uppercase;
 	letter-spacing: 2.8px;
-	margin: 0px 15px 0px 0px;
+	margin: 0px 15px 0px 15px;
 	background: #D9FFAD;
 	padding: 2px;
 	font-family: Bebas Neue;
@@ -210,31 +210,79 @@ body {
 	max-width: 100%;
 }
 .content-bottom {
-	padding: 60px 45px;
-	display:flex;
-	background-color: #14141D;
+	padding: 0px 45px;
 	flex-wrap: wrap;
+	background-color: #14141D;
 }
 .content-bottom__text {
 		/* Style for "Donec ared" */
 	color: #0FFFF1;
 	font-size: 34px;
-	line-height: 130px;
-	margin: 0px 0px 48px 0px;
+	text-align: center;
 	font-family: Bebas Neue;
     src: url(/fonts/BebasNeueBold.ttf);
-	
 }
-.content-bottom__text p {
-	margin: 0px 0px 40px 0px;
+
+.content-text{
+	background-color: #f8f8f8;
+	display: flex;
 }
-.content-bottom__text p:last-child {
-	margin: 0px;
+
+.content-text h2{
+	margin: 0 !important;
+}
+h2{
+	padding: 50px 30px 0px 30px;
+	font-family: Bebas Neue;
+	font-size: 36px;
+}
+
+.text-from{
+	padding: 0px 5px;
+	margin-top: 30px;
+	width: 330px;
+	height: 50px;
+	border: 1px solid black;
+	display: block;
+}
+form{
+	padding: 15px 15px;
+	flex-wrap: wrap;
+}
+
+p{
+	margin: 35px 30px 0px 15px;
+}
+
+button{
+	margin-top: 50px;
+	width: 330px;
+	height: 50px;
+	color: #FFFF;
+	font-size: 22px;
+	font-family: Open Sans Regular;
+	border:none;
+	background-color: #e800a7;
+}
+
+.button__two{
+	margin: 43px 63px;
+	width: 330px;
+	height: 50px;
+	color: #FFFF;
+	font-size: 22px;
+	font-family: Open Sans Regular;
+	border: none;
+	background-color: #1500a86b;
 }
 
 .content-bottom-info-list {
-	margin: 0px 0px 59px 330px;
 	
+	justify-content: space-between;
+	flex-wrap: wrap;
+	display: flex;
+	padding: 2px;
+	margin: 20px 0px 0px 0px;
 }
 .content-bottom-info-list li {
 	font-family: Arial, Helvetica, sans-serif;
@@ -245,8 +293,10 @@ body {
 		list-style-type: none;
 		
 }
+.content-bottom-info-list ul {
+	padding-left: 2px;
+}
 .content-bottom-info-list li:last-child {
-	margin: 0px;
 }
 .content-bottom-info-list li:nth-child(1) {
 	/* Style for "Put on thi" */
