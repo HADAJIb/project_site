@@ -188,6 +188,7 @@ body {
 	padding: 2px;
 	font-family: Bebas Neue;
     src: url(/fonts/BebasNeueBold.ttf);
+	text-align: center;
 }
 .content-top__title {
 	/* Style for "Donec sed" */
@@ -198,6 +199,7 @@ body {
 	margin: 0px auto;
 	font-family: Open Sans;
     src: url(/fonts/OpenSans-Regular.ttf);
+	text-align: center;
 }
 .content__image {
 	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
